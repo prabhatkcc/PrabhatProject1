@@ -5,7 +5,7 @@ var func = {
     natti:(d)=>{
         console.log("Nitya is hates "+d)
     }
-}
+} 
 
 
 // export const pandy = {

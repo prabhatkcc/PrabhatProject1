@@ -12,8 +12,7 @@ var con = mysql.createConnection({
   database: "app_db"
 });
 
-
-
+ 
 router.get('/', function (req, res, next) {
   console.log("Nitya");
   con.connect(function (err) {
