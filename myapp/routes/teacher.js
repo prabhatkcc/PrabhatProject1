@@ -9,7 +9,7 @@ router.post('/data', function(req, res, next) {
   // res.json({name:req.query.fname})
   res.render('index', { title: req.body.fname });
 });
-
+ 
 router.get('/data', function(req, res, next) {
   console.log(req.query)
   // res.json({name:req.query.fname})

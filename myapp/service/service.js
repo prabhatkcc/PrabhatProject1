@@ -11,4 +11,4 @@ var func = {
     
 }
 
-module.exports = func;
+module.exports = func; 
